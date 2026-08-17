@@ -1,0 +1,119 @@
+{
+  "Seon Suh": {
+    "family_id": "Suh",
+    "relation": "self",
+    "members": ["Seon Suh", "Chang Suh", "CJ Suh", "Asher Suh", "Carter Suh"]
+  },
+  "In Suk Kim": {
+    "family_id": "Kim-InSuk",
+    "relation": "self",
+    "members": ["In Suk Kim", "Michael Kim"]
+  },
+  "Dennis Heberling": {
+    "family_id": "Heberling-Dennis",
+    "relation": "self",
+    "members": ["Dennis Heberling"]
+  },
+  "Mike Nguyen": {
+    "family_id": "Nguyen-Mike",
+    "relation": "self",
+    "members": ["Mike Nguyen", "Audrey Villafranco", "Madilynn Nguyen", "Phinix Nguyen"]
+  },
+  "Josh Jelinek": {
+    "family_id": "Jelinek-Josh",
+    "relation": "self",
+    "members": ["Josh Jelinek"]
+  },
+  "Sawyer Lee": {
+    "family_id": null,
+    "relation": "unresolved",
+    "members": ["Sawyer Lee"],
+    "note": "Not found in directory search — possibly a junior/dependent member listed only under a parent's profile. Unmapped for now."
+  },
+  "David Weathers": {
+    "family_id": "Weathers-David",
+    "relation": "self",
+    "members": ["David Weathers", "Diane Weathers"]
+  },
+  "Ronald Hilton": {
+    "family_id": "Hilton-Ronald",
+    "relation": "self",
+    "members": ["Ronald Hilton", "Susan Hilton"]
+  },
+  "Mark Davis": {
+    "family_id": "Davis-Mark",
+    "relation": "self",
+    "members": ["Mark Davis", "Amber Davis"]
+  },
+  "Jim Ritsema": {
+    "family_id": "Ritsema-Jim",
+    "relation": "self",
+    "members": ["Jim Ritsema"]
+  },
+  "David Bowman": {
+    "family_id": "Bowman-David",
+    "relation": "self",
+    "members": ["David Bowman"]
+  },
+  "Mukul Gupta": {
+    "family_id": "Gupta-Mukul",
+    "relation": "self",
+    "members": ["Mukul Gupta", "Anjali Gupta"]
+  },
+  "Duane Rodgers": {
+    "family_id": "Rodgers-Duane",
+    "relation": "self",
+    "members": ["Duane Rodgers"]
+  },
+  "Greg Loyacano": {
+    "family_id": "Loyacano-Greg",
+    "relation": "self",
+    "members": ["Greg Loyacano", "Karen Millett"],
+    "note": "Cross-surname household — Karen Millett also independently appears as a top booker at 7:30 AM."
+  },
+  "Richard Johnston": {
+    "family_id": "Johnston-Richard",
+    "relation": "self",
+    "members": ["Richard Johnston"]
+  },
+  "Harold Vines": {
+    "family_id": "Vines-Harold",
+    "relation": "self",
+    "members": ["Harold Vines"]
+  },
+  "John Chiue": {
+    "family_id": "Chiue-John",
+    "relation": "self",
+    "members": ["John Chiue", "Tracy Chiue"]
+  },
+  "Ross McAlpine": {
+    "family_id": "McAlpine-Ross",
+    "relation": "self",
+    "members": ["Ross McAlpine", "Debbie McAlpine"]
+  },
+  "Jack Faver": {
+    "family_id": "Faver-Jack",
+    "relation": "self",
+    "members": ["Jack Faver", "Vickie Faver", "Isabel Faver", "Marcus Faver"]
+  },
+  "Thomas Harper": {
+    "family_id": "Harper-Thomas",
+    "relation": "self",
+    "members": ["Thomas Harper", "Pam Harper"]
+  },
+  "Lou Barry": {
+    "family_id": "Barry-Lou",
+    "relation": "self",
+    "members": ["Lou Barry"]
+  },
+  "Jeff Boling": {
+    "family_id": "Boling-Jeff",
+    "relation": "self",
+    "members": ["Jeff Boling"]
+  },
+  "Glynn Brown": {
+    "family_id": "Brown-Glynn",
+    "relation": "self",
+    "members": ["Glynn Brown"]
+  }
+}

@@ -1,12 +1,11 @@
 ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_as_booker
-1,170,In Suk Kim,84,49.4,70,41.2
-1,170,Karen Millett,20,11.8,20,11.8
+1,170,In Suk Kim family,84,49.4,70,41.2
+1,170,Greg Loyacano family,20,11.8,20,11.8
+1,170,Seon Suh family,27,15.9,18,10.6
 1,170,Dennis Heberling,38,22.4,17,10.0
-1,170,Seon Suh,19,11.2,16,9.4
 1,170,Donald Taylor,60,35.3,9,5.3
 1,170,Sheryl Hajda,29,17.1,4,2.4
 1,170,Tony Kim,3,1.8,3,1.8
-1,170,Chang Suh,7,4.1,2,1.2
 1,170,Jessie Barnes,2,1.2,2,1.2
 1,170,Tom Miller,2,1.2,2,1.2
 1,170,Benjamin Williams,1,0.6,1,0.6
@@ -14,54 +13,55 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 1,170,David Stringer,1,0.6,1,0.6
 1,170,Jeff Blume,1,0.6,1,0.6
 1,170,Jonathan Ortiz,1,0.6,1,0.6
-2,170,Ronald Hilton,29,17.1,28,16.5
-2,170,Seon Suh,21,12.4,21,12.4
+1,170,Sergio Palmeros,1,0.6,1,0.6
+2,170,Ronald Hilton family,29,17.1,28,16.5
+2,170,Seon Suh family,32,18.8,21,12.4
 2,170,Dennis Heberling,17,10.0,14,8.2
-2,170,In Suk Kim,17,10.0,12,7.1
-2,170,Karen Millett,7,4.1,7,4.1
+2,170,In Suk Kim family,17,10.0,12,7.1
+2,170,Greg Loyacano family,7,4.1,7,4.1
 2,170,Dennis Chambers,21,12.4,6,3.5
 2,170,Justin Philipp,6,3.5,6,3.5
 2,170,Sawyer Lee,5,2.9,5,2.9
 2,170,Jack Nguyen,5,2.9,4,2.4
-2,170,Jack Faver,5,2.9,4,2.4
+2,170,Jack Faver family,5,2.9,4,2.4
 2,170,David Donahue,3,1.8,3,1.8
 2,170,Marco Pinheiro,3,1.8,3,1.8
 2,170,Alex Teran,6,3.5,3,1.8
 2,170,Joah Bramwell,3,1.8,3,1.8
 2,170,Kurt Busch,6,3.5,2,1.2
-3,170,Ronald Hilton,45,26.5,43,25.3
-3,170,Mark Davis,28,16.5,22,12.9
-3,170,Mike Nguyen,16,9.4,16,9.4
+3,170,Ronald Hilton family,45,26.5,43,25.3
+3,170,Mark Davis family,28,16.5,22,12.9
+3,170,Mike Nguyen family,16,9.4,16,9.4
 3,170,Josh Jelinek,8,4.7,7,4.1
 3,170,Jessie Barnes,6,3.5,6,3.5
+3,170,Seon Suh family,7,4.1,5,2.9
 3,170,Jeffrey Schulze,27,15.9,5,2.9
-3,170,Seon Suh,5,2.9,4,2.4
 3,170,Rick Rack,31,18.2,4,2.4
 3,170,Alex Teran,5,2.9,4,2.4
 3,170,David Kim,4,2.4,3,1.8
 3,170,Kevin Calvert,30,17.6,3,1.8
 3,170,Andy Pham,11,6.5,3,1.8
 3,170,Tony Freitas,16,9.4,2,1.2
-3,170,In Suk Kim,2,1.2,2,1.2
+3,170,In Suk Kim family,2,1.2,2,1.2
 3,170,Steve Schmitt,26,15.3,2,1.2
-4,170,Mark Davis,32,18.8,31,18.2
-4,170,Mike Nguyen,16,9.4,16,9.4
+4,170,Mark Davis family,32,18.8,31,18.2
+4,170,Mike Nguyen family,16,9.4,16,9.4
 4,170,Jeffrey Schulze,37,21.8,11,6.5
 4,170,Mickey Teague,7,4.1,6,3.5
 4,170,Richard Johnston,5,2.9,5,2.9
 4,170,Sawyer Lee,6,3.5,4,2.4
-4,170,Seon Suh,4,2.4,4,2.4
+4,170,Seon Suh family,4,2.4,4,2.4
 4,170,Josh Jelinek,5,2.9,4,2.4
 4,170,Harold Vines,4,2.4,4,2.4
 4,170,Tony Kim,6,3.5,3,1.8
-4,170,Jack Faver,3,1.8,3,1.8
+4,170,Jack Faver family,3,1.8,3,1.8
 4,170,Kevin Calvert,13,7.6,3,1.8
 4,170,David Kim,2,1.2,2,1.2
 4,170,Travis Kinard,4,2.4,2,1.2
 4,170,Linh Phan,2,1.2,2,1.2
 5,170,Jim Ritsema,69,40.6,69,40.6
-5,170,David Weathers,32,18.8,32,18.8
-5,170,Mike Nguyen,11,6.5,11,6.5
+5,170,David Weathers family,32,18.8,32,18.8
+5,170,Mike Nguyen family,11,6.5,11,6.5
 5,170,Harold Vines,3,1.8,3,1.8
 5,170,Travis Kinard,2,1.2,2,1.2
 5,170,Jessie Barnes,2,1.2,2,1.2
@@ -97,14 +97,14 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 7,170,Travis Kinard,9,5.3,5,2.9
 7,170,Kristopher Clark,8,4.7,5,2.9
 7,170,Mickey Teague,4,2.4,4,2.4
-7,170,Jack Faver,4,2.4,4,2.4
+7,170,Jack Faver family,4,2.4,4,2.4
 7,170,James Cameron,12,7.1,3,1.8
 7,170,Jim Kinard,4,2.4,3,1.8
 7,170,Jim Ritsema,3,1.8,3,1.8
 7,170,Dwight Smith,5,2.9,2,1.2
 7,170,Andy Pham,2,1.2,2,1.2
 7,170,James Tubb,4,2.4,2,1.2
-8,170,Greg Loyacano,32,18.8,31,18.2
+8,170,Greg Loyacano family,33,19.4,31,18.2
 8,170,Jim Ritsema,14,8.2,14,8.2
 8,170,Richard Johnston,16,9.4,13,7.6
 8,170,Chris Oakes,7,4.1,6,3.5
@@ -119,29 +119,29 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 8,170,Adam Bennett,3,1.8,3,1.8
 8,170,Bibbi Eilertsen,4,2.4,3,1.8
 8,170,Laurie Yoder,3,1.8,3,1.8
-9,170,Mukul Gupta,21,12.4,21,12.4
+9,170,Mukul Gupta family,21,12.4,21,12.4
 9,170,Harold Vines,21,12.4,19,11.2
-9,170,John Chiue,11,6.5,7,4.1
-9,170,Mike Nguyen,6,3.5,5,2.9
+9,170,John Chiue family,11,6.5,7,4.1
+9,170,Mike Nguyen family,6,3.5,5,2.9
 9,170,Justin Philipp,5,2.9,5,2.9
 9,170,Mickey Teague,5,2.9,5,2.9
 9,170,Gene Moore,17,10.0,5,2.9
-9,170,Ross McAlpine,5,2.9,5,2.9
+9,170,Ross McAlpine family,5,2.9,5,2.9
 9,170,Richard Johnston,5,2.9,4,2.4
 9,170,Rose Mathes,7,4.1,4,2.4
 9,170,Jessie Barnes,4,2.4,4,2.4
-9,170,Jack Faver,6,3.5,4,2.4
+9,170,Jack Faver family,6,3.5,4,2.4
 9,170,Casey Sharrett,16,9.4,4,2.4
 9,170,Paul Kessler,15,8.8,4,2.4
 9,170,Rick Demko,4,2.4,4,2.4
 10,170,Butch Mullaney,18,10.6,18,10.6
 10,170,David Bowman,13,7.6,13,7.6
-10,170,John Chiue,11,6.5,8,4.7
+10,170,John Chiue family,11,6.5,8,4.7
 10,170,Jessie Barnes,8,4.7,8,4.7
-10,170,Ross McAlpine,8,4.7,8,4.7
+10,170,Ross McAlpine family,8,4.7,8,4.7
 10,170,Bibbi Eilertsen,9,5.3,7,4.1
 10,170,James Jewett,7,4.1,7,4.1
-10,170,Jack Faver,7,4.1,6,3.5
+10,170,Jack Faver family,7,4.1,6,3.5
 10,170,Trey Rammage,6,3.5,5,2.9
 10,170,Rose Mathes,12,7.1,5,2.9
 10,170,Harold Vines,5,2.9,5,2.9
@@ -149,30 +149,30 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 10,170,Richard Johnston,6,3.5,4,2.4
 10,170,James Tubb,6,3.5,3,1.8
 10,170,Stephen Espey,3,1.8,3,1.8
-11,170,Jack Faver,16,9.4,13,7.6
+11,170,Jack Faver family,16,9.4,13,7.6
 11,170,Jemme Steinberger,12,7.1,12,7.1
-11,170,Thomas Harper,10,5.9,9,5.3
+11,170,Thomas Harper family,10,5.9,9,5.3
 11,170,Justin Philipp,15,8.8,9,5.3
 11,170,James Lyon,9,5.3,9,5.3
 11,170,James Jewett,8,4.7,8,4.7
 11,170,Duane Rodgers,7,4.1,6,3.5
 11,170,Bibbi Eilertsen,8,4.7,5,2.9
-11,170,John Chiue,5,2.9,5,2.9
+11,170,John Chiue family,5,2.9,5,2.9
 11,170,Jessie Barnes,3,1.8,3,1.8
 11,170,Jason Brewer,3,1.8,3,1.8
 11,170,Andrew Coulter,4,2.4,3,1.8
 11,170,Hong Nguyen,3,1.8,3,1.8
 11,170,James Tubb,3,1.8,2,1.2
 11,170,Mickey Teague,2,1.2,2,1.2
-12,170,Greg Loyacano,38,22.4,38,22.4
+12,170,Greg Loyacano family,39,22.9,38,22.4
 12,170,John Weinberg,12,7.1,11,6.5
 12,170,Steve Burns,7,4.1,7,4.1
 12,170,Andrew Coulter,6,3.5,6,3.5
 12,170,Josh Jelinek,6,3.5,5,2.9
 12,170,Hong Nguyen,5,2.9,5,2.9
 12,170,Bob Reed,3,1.8,3,1.8
-12,170,Thomas Harper,4,2.4,3,1.8
-12,170,John Chiue,5,2.9,3,1.8
+12,170,Thomas Harper family,4,2.4,3,1.8
+12,170,John Chiue family,5,2.9,3,1.8
 12,170,Jeff Kendrick,7,4.1,2,1.2
 12,170,Taegeun Kim,2,1.2,2,1.2
 12,170,Joah Bramwell,2,1.2,2,1.2
@@ -186,9 +186,9 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 13,170,Jack Long,11,6.5,6,3.5
 13,170,Nancy Kay Brockhoff,9,5.3,5,2.9
 13,170,David Buckey,4,2.4,4,2.4
-13,170,John Chiue,4,2.4,4,2.4
+13,170,John Chiue family,4,2.4,4,2.4
 13,170,Felicia Zenzen,3,1.8,3,1.8
-13,170,Seon Suh,3,1.8,3,1.8
+13,170,Seon Suh family,3,1.8,3,1.8
 13,170,Jim Buchanan,27,15.9,3,1.8
 13,170,Landon Price,3,1.8,3,1.8
 13,170,John Perez,10,5.9,3,1.8
@@ -198,7 +198,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 14,170,David Buckey,7,4.1,7,4.1
 14,170,Brent Elliott,5,2.9,5,2.9
 14,170,Jack Long,11,6.5,5,2.9
-14,170,John Chiue,5,2.9,4,2.4
+14,170,John Chiue family,5,2.9,4,2.4
 14,170,Marco Pinheiro,4,2.4,4,2.4
 14,170,Adam Bennett,3,1.8,3,1.8
 14,170,Andre Lee,3,1.8,3,1.8
@@ -215,18 +215,18 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 15,170,Jack Nguyen,5,2.9,5,2.9
 15,170,Bruce Etherson,5,2.9,5,2.9
 15,170,John Weinberg,10,5.9,4,2.4
-15,170,Ross McAlpine,4,2.4,4,2.4
+15,170,Ross McAlpine family,4,2.4,4,2.4
 15,170,Bibbi Eilertsen,7,4.1,4,2.4
 15,170,Linh Phan,4,2.4,4,2.4
 15,170,Walter Pratorius,6,3.5,3,1.8
 15,170,Glynn Brown,3,1.8,3,1.8
-15,170,Thomas Harper,5,2.9,3,1.8
+15,170,Thomas Harper family,5,2.9,3,1.8
 15,170,Hong Nguyen,3,1.8,3,1.8
 15,170,Alfredo Caballero,3,1.8,3,1.8
 15,170,Quoc David Le,2,1.2,2,1.2
 16,170,Jeff Boling,14,8.2,14,8.2
 16,170,James Lyon,6,3.5,6,3.5
-16,170,John Chiue,5,2.9,4,2.4
+16,170,John Chiue family,5,2.9,4,2.4
 16,170,Jack Nguyen,4,2.4,4,2.4
 16,170,James Jewett,4,2.4,4,2.4
 16,170,Harold Vines,4,2.4,4,2.4
@@ -239,7 +239,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 16,170,Marco Pinheiro,3,1.8,3,1.8
 16,170,Walter Pratorius,7,4.1,3,1.8
 16,170,Hong Nguyen,3,1.8,3,1.8
-17,170,Ross McAlpine,19,11.2,19,11.2
+17,170,Ross McAlpine family,19,11.2,19,11.2
 17,170,Lou Barry,14,8.2,14,8.2
 17,170,Glynn Brown,8,4.7,7,4.1
 17,170,Steve Feeley,6,3.5,4,2.4
@@ -252,12 +252,12 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 17,170,Bruce Etherson,3,1.8,3,1.8
 17,170,James Tubb,2,1.2,2,1.2
 17,170,Rick Demko,2,1.2,2,1.2
-17,170,John Chiue,3,1.8,2,1.2
+17,170,John Chiue family,3,1.8,2,1.2
 17,170,Tom Ginavan,2,1.2,2,1.2
 18,170,James Jewett,19,11.2,18,10.6
 18,170,Steve Burns,10,5.9,9,5.3
 18,170,Jack Long,8,4.7,8,4.7
-18,170,Ross McAlpine,4,2.4,4,2.4
+18,170,Ross McAlpine family,4,2.4,4,2.4
 18,170,Michael Reck,4,2.4,4,2.4
 18,170,Felicia Zenzen,4,2.4,4,2.4
 18,170,Steve Feeley,5,2.9,4,2.4
@@ -265,7 +265,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 18,170,Glynn Brown,3,1.8,3,1.8
 18,170,Richard Rodriguez,4,2.4,3,1.8
 18,170,Daniel McCarthy,3,1.8,3,1.8
-18,170,John Chiue,3,1.8,3,1.8
+18,170,John Chiue family,3,1.8,3,1.8
 18,170,Alfredo Caballero,3,1.8,3,1.8
 18,170,Walter Pratorius,4,2.4,2,1.2
 18,170,Michelle 'Nikki' Ramsey,2,1.2,2,1.2
@@ -295,7 +295,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 20,170,Mack Hoehner,3,1.8,3,1.8
 20,170,Gabe Storrick,2,1.2,2,1.2
 20,170,Felicia Zenzen,2,1.2,2,1.2
-20,170,Thomas Harper,2,1.2,2,1.2
+20,170,Thomas Harper family,2,1.2,2,1.2
 20,170,James Jewett,2,1.2,2,1.2
 20,170,Daniel Cruz,4,2.4,2,1.2
 20,170,Sheldra Brigham,2,1.2,2,1.2
@@ -791,7 +791,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 53,157,Felicia Zenzen,3,1.9,3,1.9
 53,157,Johnny Le,3,1.9,3,1.9
 53,157,Sohil Merchant,3,1.9,3,1.9
-53,157,John Chiue,3,1.9,3,1.9
+53,157,John Chiue family,3,1.9,3,1.9
 53,157,Lynn Morgan,3,1.9,2,1.3
 53,157,Juan Silva,2,1.3,2,1.3
 54,148,Spoorthi Hebbal,7,4.7,7,4.7
@@ -851,7 +851,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 57,134,Mark Godleski,2,1.5,2,1.5
 57,134,Felicia Zenzen,3,2.2,2,1.5
 57,134,Braylon Roberts,1,0.7,1,0.7
-57,134,Mike Nguyen,2,1.5,1,0.7
+57,134,Mike Nguyen family,2,1.5,1,0.7
 57,134,Kris Calhoun,1,0.7,1,0.7
 57,134,Ramon Manalili,1,0.7,1,0.7
 58,134,Christopher Thedford,7,5.2,7,5.2
@@ -864,7 +864,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 58,134,Katie Sepulveda,3,2.2,2,1.5
 58,134,Kyle Johnson,2,1.5,2,1.5
 58,134,Johnny Le,2,1.5,2,1.5
-58,134,Mike Nguyen,2,1.5,2,1.5
+58,134,Mike Nguyen family,2,1.5,2,1.5
 58,134,Marcus Thalmann,2,1.5,2,1.5
 58,134,Tom Miller,2,1.5,2,1.5
 58,134,Brian Littlefield,1,0.7,1,0.7
@@ -894,7 +894,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 60,134,Daniel McCarthy,2,1.5,2,1.5
 60,134,Brian Burris,2,1.5,2,1.5
 60,134,Alex Teran,2,1.5,2,1.5
-60,134,Mike Nguyen,2,1.5,2,1.5
+60,134,Mike Nguyen family,2,1.5,2,1.5
 60,134,Christopher Thedford,2,1.5,2,1.5
 60,134,Laurie Yoder,1,0.7,1,0.7
 60,134,Mark Picha,1,0.7,1,0.7
@@ -956,7 +956,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 64,129,Paul Quebedeaux,2,1.6,2,1.6
 64,129,Lamar Burkes,2,1.6,2,1.6
 64,129,Kelly Harred,2,1.6,2,1.6
-64,129,Mike Nguyen,2,1.6,2,1.6
+64,129,Mike Nguyen family,2,1.6,2,1.6
 64,129,Paul Kessler,2,1.6,2,1.6
 64,129,David Stringer,2,1.6,2,1.6
 65,127,Christopher Thedford,14,11.0,14,11.0
@@ -1215,7 +1215,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 81,123,Christianne Lashbrook,1,0.8,1,0.8
 81,123,Felipe Cruz,1,0.8,1,0.8
 82,123,Michael Stoma,2,1.6,2,1.6
-82,123,Greg Loyacano,2,1.6,2,1.6
+82,123,Greg Loyacano family,2,1.6,2,1.6
 82,123,Cash Bartels,1,0.8,1,0.8
 82,123,Marcus Jolivet,1,0.8,1,0.8
 82,123,Adam Salinas,1,0.8,1,0.8
@@ -1248,7 +1248,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 84,117,Will Pape,1,0.9,1,0.9
 84,117,Bruce Hogg,1,0.9,1,0.9
 84,117,Luke Smith,1,0.9,1,0.9
-84,117,Greg Loyacano,1,0.9,1,0.9
+84,117,Greg Loyacano family,1,0.9,1,0.9
 84,117,Keith Pott,1,0.9,1,0.9
 84,117,Jake Williford,1,0.9,1,0.9
 84,117,Gabriella Smylie,1,0.9,1,0.9
@@ -1261,7 +1261,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 85,101,Max Amato,1,1.0,1,1.0
 85,101,Charles Matt Wood,1,1.0,1,1.0
 85,101,Ben Farrar,1,1.0,1,1.0
-85,101,Greg Loyacano,1,1.0,1,1.0
+85,101,Greg Loyacano family,1,1.0,1,1.0
 85,101,Will Pape,1,1.0,1,1.0
 85,101,Young Anderson,3,3.0,1,1.0
 85,101,Matt Peel,1,1.0,1,1.0
@@ -1273,7 +1273,7 @@ ordinal_position,days_open,member,times_booked,pct_of_days,times_booker,pct_of_d
 86,93,Jarrod Burns,1,1.1,1,1.1
 86,93,Brandon Finken,1,1.1,1,1.1
 86,93,Member,1,1.1,1,1.1
-86,93,Greg Loyacano,1,1.1,1,1.1
+86,93,Greg Loyacano family,1,1.1,1,1.1
 86,93,Jon Meyers,1,1.1,1,1.1
 86,93,Jean Carlo Vera,1,1.1,1,1.1
 87,68,Bruce Hogg,2,2.9,2,2.9

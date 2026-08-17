@@ -31,6 +31,7 @@ from collections import defaultdict
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data", "raw")
 IN_FILE = os.path.join(DATA_DIR, "teesheet.ndjson")
 OUT_DIR = os.path.join(os.path.dirname(__file__), "data", "report")
+FAMILY_MAP_FILE = os.path.join(DATA_DIR, "family_map.json")
 
 
 def round_to_bucket(time_str, bucket_minutes=15):
@@ -129,6 +130,41 @@ def build_ordinal_view(days):
     return stats
 
 
+def load_family_groups():
+    """Maps individual member names to a shared household label, from
+    data/raw/family_map.json if present. That file is built up manually
+    (there's no automated way to compile the member directory's family
+    data — see inspect_page.py and the golf-inspect.yml workflow for why),
+    one household at a time as they're identified.
+
+    Without this, a member who reserves a slot under a family member's
+    name on some days shows up as a second, less-dominant "booker" instead
+    of the one household it actually is.
+    """
+    if not os.path.exists(FAMILY_MAP_FILE):
+        return {}
+    with open(FAMILY_MAP_FILE) as f:
+        raw = json.load(f)
+    name_to_label = {}
+    for self_name, info in raw.items():
+        members = info.get("members") or [self_name]
+        label = self_name if len(members) <= 1 else f"{self_name} family"
+        for m in members:
+            name_to_label[m] = label
+    return name_to_label
+
+
+def apply_family_grouping(stats, name_to_label):
+    if not name_to_label:
+        return
+    for data in stats.values():
+        for counts_key in ("member_counts", "booker_counts"):
+            merged = defaultdict(int)
+            for name, count in data[counts_key].items():
+                merged[name_to_label.get(name, name)] += count
+            data[counts_key] = merged
+
+
 def rows_from_stats(stats, min_days, top_n, label_key):
     rows = []
     for key, data in stats.items():
@@ -184,6 +220,10 @@ def main():
 
     bucket_stats = build_bucket_view(days, args.bucket_minutes)
     ordinal_stats = build_ordinal_view(days)
+
+    name_to_label = load_family_groups()
+    apply_family_grouping(bucket_stats, name_to_label)
+    apply_family_grouping(ordinal_stats, name_to_label)
 
     bucket_rows = sorted(
         rows_from_stats(bucket_stats, args.min_days, args.top_n, "time_bucket"),

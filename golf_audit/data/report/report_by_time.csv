@@ -163,7 +163,7 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 12:30 PM,113,Katie Sepulveda,2,1.8,2,1.8
 12:30 PM,113,Bob Gruetzmacher,2,1.8,2,1.8
 12:30 PM,113,Keith Shoemaker,2,1.8,2,1.8
-12:30 PM,113,Jack Faver,4,3.5,2,1.8
+12:30 PM,113,Jack Faver family,4,3.5,2,1.8
 12:45 PM,157,Brian Burris,14,8.9,9,5.7
 12:45 PM,157,Melvin Davis,7,4.5,7,4.5
 12:45 PM,157,Jordan Kubala,9,5.7,7,4.5
@@ -297,7 +297,7 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 2:45 PM,168,Ray Coleman,4,2.4,4,2.4
 2:45 PM,168,Marcus Jolivet,5,3.0,4,2.4
 2:45 PM,168,Kelly Harred,4,2.4,4,2.4
-2:45 PM,168,Mike Nguyen,4,2.4,4,2.4
+2:45 PM,168,Mike Nguyen family,4,2.4,4,2.4
 2:45 PM,168,David Stringer,4,2.4,4,2.4
 3:00 PM,140,Spoorthi Hebbal,19,13.6,18,12.9
 3:00 PM,140,Vinh Le,18,12.9,17,12.1
@@ -431,7 +431,7 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 5:00 PM,141,Nguyen Vu Ho,3,2.1,3,2.1
 5:00 PM,141,Member,3,2.1,3,2.1
 5:00 PM,141,Matt Bongiovanni,3,2.1,3,2.1
-5:00 PM,141,Greg Loyacano,3,2.1,3,2.1
+5:00 PM,141,Greg Loyacano family,3,2.1,3,2.1
 5:00 PM,141,Keith Pott,3,2.1,3,2.1
 5:00 PM,141,Chris Green,2,1.4,2,1.4
 5:15 PM,141,Bruce Hogg,13,9.2,11,7.8
@@ -460,7 +460,7 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 5:30 PM,141,Samir Patel,3,2.1,3,2.1
 5:30 PM,141,Jon Meyers,3,2.1,3,2.1
 5:30 PM,141,Ben Farrar,3,2.1,3,2.1
-5:30 PM,141,Greg Loyacano,3,2.1,3,2.1
+5:30 PM,141,Greg Loyacano family,3,2.1,3,2.1
 5:30 PM,141,Joah Bramwell,2,1.4,2,1.4
 5:30 PM,141,Nguyen Vu Ho,2,1.4,2,1.4
 5:30 PM,141,Mike Poe,2,1.4,2,1.4
@@ -528,14 +528,14 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 6:45 PM,141,Cullen Hairrell,1,0.7,1,0.7
 6:45 PM,141,Matt Bongiovanni,1,0.7,1,0.7
 6:45 PM,141,Ken Schreiber,1,0.7,1,0.7
-7:00 AM,46,Seon Suh,24,52.2,23,50.0
-7:00 AM,46,In Suk Kim,27,58.7,21,45.7
+7:00 AM,46,Seon Suh family,38,82.6,24,52.2
+7:00 AM,46,In Suk Kim family,27,58.7,21,45.7
 7:00 AM,46,Dennis Heberling,22,47.8,10,21.7
 7:00 AM,46,Sawyer Lee,5,10.9,5,10.9
 7:00 AM,46,Tom Miller,4,8.7,4,8.7
 7:00 AM,46,Jack Nguyen,5,10.9,4,8.7
 7:00 AM,46,Sergio Palmeros,3,6.5,3,6.5
-7:00 AM,46,Jack Faver,3,6.5,3,6.5
+7:00 AM,46,Jack Faver family,3,6.5,3,6.5
 7:00 AM,46,Donald Taylor,17,37.0,2,4.3
 7:00 AM,46,David Kim,8,17.4,2,4.3
 7:00 AM,46,Jeff Kendrick,3,6.5,2,4.3
@@ -547,11 +547,11 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 7:00 PM,84,Member,1,1.2,1,1.2
 7:00 PM,84,Felicia Zenzen,1,1.2,1,1.2
 7:00 PM,84,Gabriella Smylie,1,1.2,1,1.2
-7:15 AM,46,Mike Nguyen,32,69.6,32,69.6
+7:15 AM,46,Mike Nguyen family,32,69.6,32,69.6
 7:15 AM,46,Josh Jelinek,13,28.3,11,23.9
 7:15 AM,46,Sawyer Lee,8,17.4,6,13.0
 7:15 AM,46,David Kim,6,13.0,5,10.9
-7:15 AM,46,Seon Suh,5,10.9,4,8.7
+7:15 AM,46,Seon Suh family,6,13.0,4,8.7
 7:15 AM,46,Tony Kim,7,15.2,3,6.5
 7:15 AM,46,Yoonsuk  (Jordan) Choi,2,4.3,2,4.3
 7:15 AM,46,Sergio Palmeros,14,30.4,2,4.3
@@ -562,12 +562,12 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 7:15 AM,46,Garry Hayden,1,2.2,1,2.2
 7:15 AM,46,David Bowman,1,2.2,1,2.2
 7:15 AM,46,Ronald (Ronnie) Mitchison Jr,8,17.4,1,2.2
-7:30 AM,158,In Suk Kim,74,46.8,61,38.6
-7:30 AM,158,David Weathers,33,20.9,33,20.9
-7:30 AM,158,Ronald Hilton,30,19.0,29,18.4
-7:30 AM,158,Karen Millett,27,17.1,27,17.1
+7:30 AM,158,In Suk Kim family,74,46.8,61,38.6
+7:30 AM,158,David Weathers family,33,20.9,33,20.9
+7:30 AM,158,Ronald Hilton family,30,19.0,29,18.4
+7:30 AM,158,Greg Loyacano family,27,17.1,27,17.1
 7:30 AM,158,Dennis Heberling,33,20.9,21,13.3
-7:30 AM,158,Seon Suh,16,10.1,14,8.9
+7:30 AM,158,Seon Suh family,21,13.3,15,9.5
 7:30 AM,158,Chris Oakes,9,5.7,9,5.7
 7:30 AM,158,Donald Taylor,50,31.6,9,5.7
 7:30 AM,158,Jessie Barnes,7,4.4,7,4.4
@@ -577,8 +577,8 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 7:30 AM,158,Yoonsuk  (Jordan) Choi,4,2.5,4,2.5
 7:30 AM,158,Jack Nguyen,5,3.2,4,2.5
 7:30 AM,158,Sheryl Hajda,36,22.8,4,2.5
-7:45 AM,158,Mark Davis,60,38.0,53,33.5
-7:45 AM,158,Ronald Hilton,47,29.7,45,28.5
+7:45 AM,158,Mark Davis family,60,38.0,53,33.5
+7:45 AM,158,Ronald Hilton family,47,29.7,45,28.5
 7:45 AM,158,Jim Ritsema,17,10.8,17,10.8
 7:45 AM,158,Chris Oakes,19,12.0,16,10.1
 7:45 AM,158,Jeffrey Schulze,64,40.5,16,10.1
@@ -589,14 +589,14 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 7:45 AM,158,Kevin Calvert,43,27.2,6,3.8
 7:45 AM,158,Tom Miller,7,4.4,5,3.2
 7:45 AM,158,Kristopher Clark,7,4.4,5,3.2
-7:45 AM,158,Jack Faver,5,3.2,5,3.2
+7:45 AM,158,Seon Suh family,5,3.2,5,3.2
+7:45 AM,158,Jack Faver family,5,3.2,5,3.2
 7:45 AM,158,Richard Johnston,6,3.8,5,3.2
-7:45 AM,158,Rick Rack,37,23.4,4,2.5
 8:00 AM,156,Jim Ritsema,97,62.2,96,61.5
 8:00 AM,156,David Bowman,64,41.0,48,30.8
-8:00 AM,156,Mukul Gupta,22,14.1,22,14.1
+8:00 AM,156,Mukul Gupta family,22,14.1,22,14.1
 8:00 AM,156,Butch Mullaney,18,11.5,18,11.5
-8:00 AM,156,Mike Nguyen,11,7.1,11,7.1
+8:00 AM,156,Mike Nguyen family,11,7.1,11,7.1
 8:00 AM,156,Richard Johnston,10,6.4,8,5.1
 8:00 AM,156,Harold Vines,7,4.5,6,3.8
 8:00 AM,156,Casey Sharrett,20,12.8,4,2.6
@@ -608,7 +608,7 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 8:00 AM,156,Phil Carroll,25,16.0,3,1.9
 8:00 AM,156,Travis Kinard,4,2.6,2,1.3
 8:15 AM,156,Duane Rodgers,40,25.6,36,23.1
-8:15 AM,156,Greg Loyacano,33,21.2,31,19.9
+8:15 AM,156,Greg Loyacano family,35,22.4,32,20.5
 8:15 AM,156,Richard Johnston,24,15.4,19,12.2
 8:15 AM,156,John Weinberg,11,7.1,11,7.1
 8:15 AM,156,Harold Vines,14,9.0,10,6.4
@@ -623,10 +623,10 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 8:15 AM,156,Dwight Smith,16,10.3,5,3.2
 8:15 AM,156,Justin Philipp,4,2.6,4,2.6
 8:30 AM,156,Harold Vines,29,18.6,27,17.3
-8:30 AM,156,John Chiue,23,14.7,15,9.6
-8:30 AM,156,Ross McAlpine,13,8.3,13,8.3
+8:30 AM,156,John Chiue family,23,14.7,15,9.6
+8:30 AM,156,Ross McAlpine family,13,8.3,13,8.3
 8:30 AM,156,Jessie Barnes,11,7.1,11,7.1
-8:30 AM,156,Jack Faver,14,9.0,11,7.1
+8:30 AM,156,Jack Faver family,14,9.0,11,7.1
 8:30 AM,156,David Buckey,11,7.1,11,7.1
 8:30 AM,156,Rose Mathes,20,12.8,10,6.4
 8:30 AM,156,Mickey Teague,9,5.8,9,5.8
@@ -636,15 +636,15 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 8:30 AM,156,Laurie Yoder,9,5.8,6,3.8
 8:30 AM,156,Trey Rammage,6,3.8,5,3.2
 8:30 AM,156,James Tubb,11,7.1,5,3.2
-8:30 AM,156,Mike Nguyen,5,3.2,5,3.2
-8:45 AM,156,Greg Loyacano,38,24.4,38,24.4
-8:45 AM,156,Jack Faver,16,10.3,13,8.3
-8:45 AM,156,Thomas Harper,14,9.0,12,7.7
+8:30 AM,156,Mike Nguyen family,5,3.2,5,3.2
+8:45 AM,156,Greg Loyacano family,39,25.0,38,24.4
+8:45 AM,156,Jack Faver family,16,10.3,13,8.3
+8:45 AM,156,Thomas Harper family,14,9.0,12,7.7
 8:45 AM,156,Jemme Steinberger,12,7.7,12,7.7
 8:45 AM,156,James Lyon,11,7.1,11,7.1
 8:45 AM,156,Justin Philipp,15,9.6,9,5.8
 8:45 AM,156,Jack Nguyen,9,5.8,9,5.8
-8:45 AM,156,John Chiue,10,6.4,8,5.1
+8:45 AM,156,John Chiue family,10,6.4,8,5.1
 8:45 AM,156,Steve Burns,8,5.1,8,5.1
 8:45 AM,156,James Jewett,8,5.1,8,5.1
 8:45 AM,156,Hong Nguyen,7,4.5,7,4.5
@@ -668,26 +668,26 @@ time_bucket,days_open,member,times_booked,pct_of_days,times_booker,pct_of_days_a
 9:00 AM,124,Bruce Etherson,4,3.2,4,3.2
 9:00 AM,124,John Perez,17,13.7,4,3.2
 9:15 AM,150,Jeff Boling,22,14.7,22,14.7
-9:15 AM,150,John Chiue,9,6.0,7,4.7
+9:15 AM,150,John Chiue family,9,6.0,7,4.7
 9:15 AM,150,John Weinberg,17,11.3,7,4.7
 9:15 AM,150,Jack Long,12,8.0,7,4.7
 9:15 AM,150,Taegeun Kim,6,4.0,6,4.0
 9:15 AM,150,Adam Bennett,5,3.3,5,3.3
 9:15 AM,150,Walter Pratorius,14,9.3,5,3.3
 9:15 AM,150,Dalton Davis,16,10.7,5,3.3
-9:15 AM,150,Ross McAlpine,5,3.3,5,3.3
+9:15 AM,150,Ross McAlpine family,5,3.3,5,3.3
 9:15 AM,150,Jordan Frey,5,3.3,5,3.3
 9:15 AM,150,Gabe Storrick,4,2.7,4,2.7
 9:15 AM,150,James Jewett,4,2.7,4,2.7
 9:15 AM,150,Bibbi Eilertsen,6,4.0,4,2.7
 9:15 AM,150,Richard Rodriguez,4,2.7,4,2.7
 9:15 AM,150,Hong Nguyen,4,2.7,4,2.7
-9:30 AM,150,Ross McAlpine,23,15.3,23,15.3
+9:30 AM,150,Ross McAlpine family,23,15.3,23,15.3
 9:30 AM,150,Lou Barry,19,12.7,19,12.7
 9:30 AM,150,James Jewett,21,14.0,19,12.7
 9:30 AM,150,Steve Burns,15,10.0,15,10.0
 9:30 AM,150,Jack Long,15,10.0,14,9.3
-9:30 AM,150,John Chiue,9,6.0,8,5.3
+9:30 AM,150,John Chiue family,9,6.0,8,5.3
 9:30 AM,150,Gary Kirkes,8,5.3,8,5.3
 9:30 AM,150,Gabe Storrick,6,4.0,6,4.0
 9:30 AM,150,Hong Nguyen,6,4.0,6,4.0
