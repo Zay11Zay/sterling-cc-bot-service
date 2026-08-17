@@ -160,12 +160,25 @@ def main():
         current = start_date
         consecutive_failures = 0
         days_scraped = 0
+        days_since_reload = 0
         oldest_success = None
         last_login = time.monotonic()
         # The site logs out inactive sessions after ~38 min (see KillMePlease
         # timer on login.js); re-login well before that so a multi-hour scrape
         # doesn't silently die partway through.
         RELOGIN_INTERVAL_S = 15 * 60
+        # The tee sheet panel does partial (Telerik AJAX) postbacks on every
+        # changeDate() call without a full page reload. On ASP.NET WebForms
+        # this lets ViewState accumulate across postbacks, and after ~150-200
+        # rapid calls in one session the panel starts timing out well within
+        # what looks like a real "no more history" wall. A plain page reload
+        # resets that state, so we do one periodically and also before ever
+        # trusting a failure streak as a genuine historical boundary.
+        RELOAD_EVERY_N_DAYS = 60
+
+        def reload_teesheet():
+            page.goto(TEESHEET_URL, wait_until="domcontentloaded")
+            page.wait_for_selector(TIME_SLOT_PANEL_SEL, timeout=20000)
 
         with open(OUT_FILE, "a") as out:
             for _ in range(args.max_days):
@@ -178,9 +191,13 @@ def main():
                 if time.monotonic() - last_login > RELOGIN_INTERVAL_S:
                     log("Refreshing session (re-login) before it times out...")
                     login(page, username, password)
-                    page.goto(TEESHEET_URL, wait_until="domcontentloaded")
-                    page.wait_for_selector(TIME_SLOT_PANEL_SEL, timeout=20000)
+                    reload_teesheet()
                     last_login = time.monotonic()
+                    days_since_reload = 0
+                elif days_since_reload >= RELOAD_EVERY_N_DAYS:
+                    log("Reloading tee sheet to clear accumulated ViewState...")
+                    reload_teesheet()
+                    days_since_reload = 0
 
                 ok = go_to_date(page, current)
                 if not ok:
@@ -188,13 +205,24 @@ def main():
                     log(f"{date_key}: FAILED to load ({consecutive_failures} consecutive)")
                     if consecutive_failures >= args.consecutive_failures_to_stop:
                         log(f"Hit {consecutive_failures} consecutive failures at {date_key} — "
-                            f"treating as historical boundary. Oldest successful date: {oldest_success}")
-                        break
-                    current -= datetime.timedelta(days=1)
-                    time.sleep(args.delay)
-                    continue
+                            f"reloading page and retrying once before treating as a historical boundary...")
+                        reload_teesheet()
+                        days_since_reload = 0
+                        ok = go_to_date(page, current)
+                        if not ok:
+                            log(f"Still failed after reload — treating {date_key} as the historical "
+                                f"boundary. Oldest successful date: {oldest_success}")
+                            break
+                        log(f"{date_key}: loaded fine after reload — prior failures were session "
+                            f"degradation, not a real boundary. Continuing.")
+                        consecutive_failures = 0
+                    else:
+                        current -= datetime.timedelta(days=1)
+                        time.sleep(args.delay)
+                        continue
 
                 consecutive_failures = 0
+                days_since_reload += 1
                 slots = extract_day(page)
                 record = {"date": date_key, "weekday": current.strftime("%A"), "slots": slots}
                 out.write(json.dumps(record) + "\n")
