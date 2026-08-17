@@ -1,0 +1,43 @@
+name: Golf page inspector (diagnostic)
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Full URL to log in and fetch"
+        required: true
+      out_file:
+        description: "Output filename (saved under golf_audit/data/raw/)"
+        required: false
+        default: "page_dump.html"
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: golf_audit
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Fetch page
+        working-directory: golf_audit
+        env:
+          CLUB_USERNAME: ${{ secrets.CLUB_USERNAME }}
+          CLUB_PASSWORD: ${{ secrets.CLUB_PASSWORD }}
+        run: python inspect_page.py "${{ github.event.inputs.url }}" "${{ github.event.inputs.out_file }}"
+
+      - name: Upload page dump
+        uses: actions/upload-artifact@v4
+        with:
+          name: golf-page-dump-${{ github.run_id }}
+          path: golf_audit/data/raw/${{ github.event.inputs.out_file }}
+          retention-days: 7
