@@ -1,0 +1,64 @@
+name: Golf tee-sheet historical scrape
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Start date to scrape backward from (m/d/yyyy). Leave blank for yesterday."
+        required: false
+        default: ""
+      max_days:
+        description: "Max number of days to walk backward"
+        required: false
+        default: "3650"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: golf_audit
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Restore previous scrape progress
+        uses: actions/cache@v4
+        with:
+          path: golf_audit/data/raw
+          key: golf-teesheet-data-${{ github.run_id }}
+          restore-keys: |
+            golf-teesheet-data-
+
+      - name: Run scraper
+        working-directory: golf_audit
+        env:
+          CLUB_USERNAME: ${{ secrets.CLUB_USERNAME }}
+          CLUB_PASSWORD: ${{ secrets.CLUB_PASSWORD }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.start_date }}" ]; then
+            ARGS="$ARGS --start-date ${{ github.event.inputs.start_date }}"
+          fi
+          ARGS="$ARGS --max-days ${{ github.event.inputs.max_days }}"
+          python scraper.py $ARGS
+
+      - name: Aggregate report
+        working-directory: golf_audit
+        run: python aggregate.py
+
+      - name: Upload raw data + report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: golf-audit-${{ github.run_id }}
+          path: |
+            golf_audit/data/raw/teesheet.ndjson
+            golf_audit/data/report/
+          retention-days: 30
